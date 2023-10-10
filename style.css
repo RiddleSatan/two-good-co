@@ -1,0 +1,451 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "futura";
+}
+
+html,
+body {
+  width: 100%;
+  height: auto;
+}
+.nav {
+  width: 100%;
+  height: 130px;
+  /* background-color: rgb(243, 232, 218); */
+  position: fixed;
+  z-index: 99999;
+  padding: 25px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  opacity: 0;
+}
+
+.nav {
+  opacity: 1;
+  transition: all ease 1s;
+}
+
+.navleft {
+  height: 82px;
+  /* background-color: red;   */
+  overflow: hidden;
+  width: 150px;
+}
+
+.navright svg {
+  display: block;
+}
+
+.nav a {
+  font-family: "Gilroy";
+  font-weight: 900;
+  text-decoration: none;
+  color: black;
+  font-size: 2vh;
+}
+
+.icn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 120px;
+  padding: 0 20px;
+  border-radius: 15px;
+  height: 30px;
+  background-color: #f7f7f7;
+  padding-top: 0;
+  align-self: flex-start;
+}
+
+.navlink {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding-top: 0;
+  align-self: flex-start;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+.cursor {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(247, 224, 165);
+  /* background-color: rgb(17, 16, 17); */
+  position: fixed;
+  scale: 0;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+*::selection {
+  color: white;
+  background-color: black;
+}
+.home {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  margin-top: 160px;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+.home h1 {
+  font-size: 16.5vw;
+  line-height: 14vw;
+  text-transform: uppercase;
+  font-family: "Futura";
+  letter-spacing: -12px;
+  padding-left: 5px;
+}
+
+.head {
+  display: flex;
+  gap: 50px;
+}
+
+.video-container {
+  width: 100%;
+  height: 100vh;
+  margin-top: 30px;
+  background-color: gray;
+  position: relative;
+}
+.video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.video-container .circle {
+  padding: 3.2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 10vh;
+  height: 10vh;
+  background-color: black;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 99;
+  font-family: futura;
+  opacity: 0;
+  scale: 0;
+}
+
+.home2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4vw 1vw;
+}
+.elem {
+  height: 100%;
+  width: 32.5%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.elem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  scale: 1.1;
+}
+
+.home3 {
+  width: 100%;
+  padding: 0 5px;
+  min-height: 120vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.child {
+  margin: 50px;
+  width: 32vw;
+  height: 55vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.child img {
+  width: 100%;
+  height: 80vh;
+}
+
+.navi {
+  padding: 0 10px;
+  width: 300px;
+  height: 45px;
+  border-radius: 30px;
+  background-color: rgb(244, 239, 186);
+  z-index: 99999;
+  position: absolute;
+  transition: all ease 0.5s;
+}
+
+.navi:hover {
+  width: 50vh;
+  height: 150px;
+  transform-origin: bottom;
+  border-radius: 30px;
+  background-color: palegoldenrod;
+  z-index: 99999;
+  position: absolute;
+  transition: all ease 0.5s;
+}
+
+.home4 {
+  display: flex;
+
+  justify-content: space-between;
+  width: 100%;
+  height: 71vh;
+  /* margin-bottom: 50px; */
+  /* background-color: cyan; */
+  padding: 0 20px;
+  /* align-items: center; */
+  align-self: flex-start;
+}
+
+.home4 .leftheading {
+  height: 80%;
+  width: 45%;
+  padding-top: 80px;
+  font-size: 27px;
+  /* margin-top: 100px; */
+  text-transform: uppercase;
+  font-family: "Futura";
+  font-weight: 900;
+  line-height: 55px;
+}
+
+.rightpara {
+  height: 80%;
+  width: 23%;
+  padding-top: 80px;
+  margin-right: 130px;
+}
+.rightpara p {
+  margin-bottom: 35px;
+  letter-spacing: 0.01em;
+  font-size: 16px;
+  font-family: "Helvetica Now Text", "Lucida Sans", Tahoma, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.shopsupport h4 {
+  width: fit-content;
+  letter-spacing: 0.05em;
+  font-size: 12px;
+  font-family: "ABC Social Mono", "Lucida Sans", Tahoma, nonospaced;
+  font-weight: 500;
+  padding: 8px;
+  border-bottom: 1px solid black;
+}
+
+.home5 {
+  margin-top: 80px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* justify-content: center; */
+  /* align-items: flex-start; */
+}
+.home5 .typara {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.typara h1 {
+  font-size: 70px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  line-height: 65px;
+}
+
+.home5 button {
+  width: 280px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  font-size: 12px;
+  font-family: "ABC Social Mono", "Lucida Sans", Tahoma, nonospaced;
+  margin-bottom: 30px;
+}
+
+.home5 h4 {
+  letter-spacing: 0.01em;
+  font-size: 16px;
+  font-family: "Helvetica Now Text", "Lucida Sans", Tahoma, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.home6 {
+  width: 100%;
+  padding: 0 5px;
+  min-height: 120vh;
+  display: flex;
+  align-self: flex-start;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.pic {
+  width: 49%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  /* background-color: red;    */
+  overflow: hidden;
+}
+
+.mainpic {
+  /* background-color: blue; */
+  width: 60%;
+  height: 95vh;
+  /* height: fit-content; */
+  display: flex;
+  align-self: flex-start;
+  justify-content: space-between;
+}
+
+#rightpara {
+  width: 300px;
+  height: 65%;
+
+  padding-top: 30px;
+  margin-right: 130px;
+}
+
+.pic img {
+  width: 100%;
+  height: 100%;
+}
+
+#desc {
+  width: 300px;
+  height: 80vh;
+  line-height: 50px;
+  margin-left: 80px;
+}
+
+#shopsupport h4 {
+  padding: 0;
+  margin-top: 18px;
+  line-height: 15px;
+}
+
+
+.home7{
+  width: 100%;
+  height: 50vh;
+  padding: 0 10px;
+  display: flex;
+  align-self: flex-start;
+  justify-content: space-between;
+}
+
+ul{
+  list-style-type: none;
+  margin-top: 15px;
+}
+
+.leftsec ul li{
+  letter-spacing: 0.01em;
+  font-size: 14px;
+  font-family: "Helvetica Now Text", "Lucida Sans", Tahoma, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.rightsec ul li{
+  letter-spacing: 0.01em;
+  font-size: 14px;
+  font-family: "Helvetica Now Text", "Lucida Sans", Tahoma, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.home7 h4{
+  letter-spacing: 0.01em;
+  font-size: 12px;
+  font-family: "Helvetica Now Text", "Lucida Sans", Tahoma, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #989898;
+}
+
+.lastpara{
+  width: 78%;
+  height: 50vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: flex-start  ;
+}
+
+.lastpara p{
+  letter-spacing: 0.01em;
+  font-size: 16px;
+  font-family: "Helvetica Now Text", "Lucida Sans", Tahoma, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.nitty{
+  display: flex;
+  flex-direction: column;
+  align-items: self-end;
+}
+ .naavi{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+
+ .naavi ul li{
+  letter-spacing: 0.01em;
+  font-size: 14px;
+  font-family: "Helvetica Now Text", "Lucida Sans", Tahoma, sans-serif;
+  font-weight: 200;
+  line-height: 1.5;
+ }
