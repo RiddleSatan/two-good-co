@@ -108,7 +108,7 @@ body {
   font-size: 16.5vw;
   line-height: 14vw;
   text-transform: uppercase;
-  font-family: "Futura";
+  font-family: 'Young Serif', serif;;
   letter-spacing: -12px;
   padding-left: 5px;
 }
@@ -242,7 +242,7 @@ body {
   font-size: 27px;
   /* margin-top: 100px; */
   text-transform: uppercase;
-  font-family: "Futura";
+  font-family: 'Young Serif', serif;;
   font-weight: 900;
   line-height: 55px;
 }
