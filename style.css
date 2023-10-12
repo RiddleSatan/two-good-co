@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "futura";
+  font-family: 'Young Serif', serif;
 }
 
 html,
 body {
   width: 100%;
   height: auto;
+  font-family: 'Young Serif', serif;
 }
 .nav {
   width: 100%;
